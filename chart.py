@@ -41,5 +41,5 @@ plt.xticks(rotation=45)
 plt.tight_layout()
 
 # Save figure as PNG 512x512 px
-plt.savefig("chart.png", dpi=64, bbox_inches='tight')
+plt.savefig("chart.png", dpi=64)
 plt.close()
